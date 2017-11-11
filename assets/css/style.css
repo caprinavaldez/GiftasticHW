@@ -1,0 +1,75 @@
+h1 {
+	font-family: 'Rozha One', serif;
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 0
+}
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto Slab', serif;*/
+#food-view {
+	column-count: 3;
+	text-align: center;
+	padding: 20px 5px 10px 5px;
+	margin-top: 20px;
+}
+
+/*body {
+	background-color: lightblue;
+}*/
+
+.rating {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+form, input, #btn-view, h4 {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+
+}
+
+h4 {
+	margin-bottom: 40px
+}
+
+.btn {
+	font-family: 'Libre Baskerville', serif;
+	margin: 0 3px 15px 3px;
+	font-weight: bold;
+}
+
+.food {
+	margin: 5px 5px 25px 5px 
+}
+
+#food-view {
+	margin: 0 10px 0 10px;
+}
+
+#addFoodBtn {
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+html { 
+  background: url('https://previews.123rf.com/images/zag4x4/zag4x41305/zag4x4130500004/19383027-Food-leavings-fish-apple-chicken-drink-on-light-green-background-Stock-Vector.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 980px) {
+	#food-view {
+		column-count: 2;
+	}		
+}
+
+@media only screen and (max-width: 640px) {
+	#food-view {
+		column-count: 1;
+	}
+}
