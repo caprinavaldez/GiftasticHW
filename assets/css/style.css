@@ -4,20 +4,13 @@ h1 {
 	font-size: 60px;
 	margin-bottom: 0
 }
-/*font-family: 'Slabo 27px', serif;
-font-family: 'Roboto Slab', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Roboto Slab', serif;*/
+
 #food-view {
 	column-count: 3;
 	text-align: center;
 	padding: 20px 5px 10px 5px;
 	margin-top: 20px;
 }
-
-/*body {
-	background-color: lightblue;
-}*/
 
 .rating {
 	font-family: 'Libre Baskerville', serif;
